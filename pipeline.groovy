@@ -11,6 +11,7 @@ pipeline {
             steps {
                 script {
                     echo 'fazendo o build do projeto'
+                    sh "ls -l"
                 }
             }
         }
