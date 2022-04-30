@@ -11,6 +11,8 @@ pipeline {
             steps {
                 script {
                     echo 'fazer checkout do projeto'
+                    sh "ls -la"
+                    sh "pwd"
                 }
             }
         }
